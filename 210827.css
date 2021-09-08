@@ -95,15 +95,21 @@ body > .logo {
 
 .info .metadata .titleAndbutton .title {
   font-size: var(--font-medium);
+  margin-right: var(--spacing);
+}
+
+.info .metadata .titleAndbutton .title .clamp {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
-  margin-right: var(--spacing);
 }
-
 .info .metadata .titleAndbutton .moreBtn {
   height: 100%;
+}
+
+.info .metadata .titleAndbutton .moreBtn .clicked {
+  transform: rotate(180deg);
 }
 
 .info .views {
